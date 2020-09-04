@@ -1,6 +1,10 @@
 body{
     font-family: sans-serif;
+    background: lightblue;
+    padding: 0;
+    margin: 0;
 }
+
 h1{
     text-align: center;
     font-size: 50px;
@@ -10,13 +14,22 @@ h2{
     font-size: 30px;
 }
 
+#img-div{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
 #img-id{
-    margin:0;
+    margin: 0;
     padding: 10px;
     height:100%;
 }
+
 #image{
-    width: 100%;
+  width: 100%;
+  display: block;
+    max-width: 100%;
     height: auto;
     margin: 0 auto;
 }
@@ -24,6 +37,7 @@ h2{
 #img-caption{
     text-align: center;
     font-size: 18px;
+    margin: 20px 0;
 }
 
 #tribute-info{
@@ -47,6 +61,3 @@ h2{
     text-decoration: none;
 }
 
-#img-div{
-    margin-bottom: 100px;
-}
